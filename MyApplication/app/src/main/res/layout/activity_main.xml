@@ -30,7 +30,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textColor="@color/black"
-        android:background="@color/white"
+        android:background="@drawable/rounde_text"
         android:hint="@string/hint_email_phone"
         />
     <EditText
@@ -44,7 +44,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textColor="@color/black"
-        android:background="@color/white"
+        android:background="@drawable/rounde_text"
         android:hint="@string/hint_pass"
         />
     <Button
@@ -57,7 +57,7 @@
         android:padding="@dimen/text_padding"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/blue_dark"
+        android:background="@drawable/rounde_btn"
         android:textColor="@color/white"
         android:text="@string/text_login"
         android:textAllCaps="false"
@@ -75,5 +75,14 @@
         android:layout_height="wrap_content"
         android:textSize="@dimen/text_size_small"
         />
+
+    <TextView
+        android:id="@+id/imv_icon"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_alignBaseline="@+id/btn_sign_up"
+        android:layout_alignBottom="@+id/btn_sign_up"
+        android:layout_alignEnd="@+id/btn_sign_up"
+        android:background="@drawable/icon" />
 
 </RelativeLayout>
